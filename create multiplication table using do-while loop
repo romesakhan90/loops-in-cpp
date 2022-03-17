@@ -1,0 +1,21 @@
+// write table using do-while loop 
+
+#include<iostream>
+using namespace std;
+int main ()
+{
+int a,i,x;
+cout<<"enter any number"<<endl;
+cin>>a;
+ i=1;
+ do
+ { 
+ cout<<a<<"x"<<i<<"="<<a*i<<endl;
+ i++;
+ 
+ } while (i<=10);
+
+	return 0;
+	
+	
+}
